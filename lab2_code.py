@@ -45,8 +45,10 @@ class Deck(object):
     def replace_card(self, card):
         card_strs = [] # forming an empty list
         for c in self.cards: # each card in self.cards (the initial list)
-            card_strs.append(c.__str__()) # appends the string that represents that card to the empty list
-        if card.__str__() not in card_strs: # if the string representing this card is not in the list already
+            card_strs.append(c.__str__()) # appends the string that
+            #represents that card to the empty list
+        if card.__str__() not in card_strs: # if the string representing
+        #this card is not in the list already
             self.cards.append(card) # append it to the list
 
     def rebuild_deck_and_sort_cards(self):
