@@ -1,4 +1,4 @@
-#Description of Code in Lab2_code.py
+# Description of Code in Lab2_code.py
 There are classes and functions which will be used to make a card game that can be played by two people and the result will be who won the game.
 
 ## Class card
