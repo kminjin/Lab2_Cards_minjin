@@ -5,23 +5,29 @@ to format the file. You should make at least 2 commits during this process.
 #Description of Code in Lab2_code.py
 
 ##Class card
+Suits, ranks, and faces of card are defined.
 
-###initializer function
-
-###function string
-
-##Class deck
-
-###initializer function
+###initilizer function
+This function outputs which card the player has.
 
 ###string function
+Returns a string of player's card.
+
+##Class deck
+###initializer function
+This function sorts players multiple cards.
+
+###string function
+The string function returns players multiple cards.
 
 ###pop_cardi function
-
+This function remove and returns a card from the deck.
 
 ###shuffle function
+This function randomizes the cards.
 
 ###replace card function
+
 
 ###rebuild the deck and sort cards function
 
